@@ -26,4 +26,5 @@ How to make it work:
 2. Access http://localhost:8080/ and login with admin:admin
 3. Create new dags in /dags folder and trigger sync if it doesn't appear in UI
 
+===========================
 Have fun!
