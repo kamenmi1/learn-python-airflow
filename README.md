@@ -12,6 +12,7 @@ Your Astro project contains the following files and folders:
     - `example_dag_basic`: This DAG shows a simple ETL data pipeline example with three TaskFlow API tasks that run daily.
     - `example_dag_advanced`: This advanced DAG showcases a variety of Airflow features like branching, Jinja templates, task groups and several Airflow operators.
     - `my_dag`: My own very simple dag to understand how the ETL pipeline works.
+    - `my_second_dag`: My attempt to use Xcom to get data from API, process them and showcase 
 - Dockerfile: This file contains a versioned Astro Runtime Docker image that provides a differentiated Airflow experience. If you want to execute other commands or overrides at runtime, specify them here.
 - include: This folder contains any additional files that you want to include as part of your project. It is empty by default.
 - packages.txt: Install OS-level packages needed for your project by adding them to this file. It is empty by default.
